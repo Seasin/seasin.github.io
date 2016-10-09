@@ -252,7 +252,7 @@ a {
 }
 #container .left-col {
   background: url("../img/bg.jpg") #515457;
-  width: '' px;
+  width: 300px;
   position: fixed;
   opacity: 1;
   -webkit-transition: all 0.2s ease-in;
@@ -3365,7 +3365,7 @@ color
   content: attr(data-lang) " code";
   display: block;
   background-color: #0083a0;
-  margin: 0 -10px 16px -10px;
+  margin: 0 -16px 16px -16px;
   padding: 8px 16px;
   color: #efefef;
   font-family: Lato, "Microsoft YaHei", sans-serif;
@@ -3427,6 +3427,7 @@ color
 }
 .article-entry .highlight .line {
   font-size: 15px;
+  height: 15px;
 }
 .article-entry .gist {
   margin: 0 -20px;
