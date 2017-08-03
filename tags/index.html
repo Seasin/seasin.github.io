@@ -432,13 +432,38 @@
 
 
 
+  <! -- 添加捐赠图标 -->
+<div class ="post-donate">
+    <div id="donate_board" class="donate_bar center">
+        <a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏"></a>
+        <span class="donate_txt">
+           ↑<br>
+           欣赏此文？求鼓励，求支持！
+        </span>
+        <br>
+      </div>  
+    <div id="donate_guide" class="donate_bar center hidden" >
+        <!-- 支付宝打赏图案 -->
+        <img src="/img/zhifubao.png" alt="支付宝打赏"> 
+        <!-- 微信打赏图案 -->
+        <img src="/img/weixin.jpg" alt="微信打赏">  
+    </div>
+    <script type="text/javascript">
+        document.getElementById('btn_donate').onclick = function(){
+            $('#donate_board').addClass('hidden');
+            $('#donate_guide').removeClass('hidden');
+        }
+    </script>
+</div>
+<! -- 添加捐赠图标 -->
+
 
 </div>
       <footer id="footer">
     <div class="outer">
         <div id="footer-info">
             <div class="footer-left">
-                &copy; 2016 Lusin
+                &copy; 2017 Lusin
             </div>
             <div class="footer-right">
                 <a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/seasin/" target="_blank">spfk</a> by Lusin
